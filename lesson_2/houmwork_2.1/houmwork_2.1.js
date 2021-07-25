@@ -1,4 +1,4 @@
-var p = 20;
+/*var p = 20;
 var year = prompt("Укажите вораст");
 if (year > 20){
     console.log(year);
@@ -20,5 +20,5 @@ switch (x) {
     case 5:
         console.log(alert('hi!'));
         break;
-}
+}*/
 
