@@ -1,6 +1,5 @@
-/*var p = 20;
-var year = prompt("Укажите вораст");
-if (year > 20){
+/*var year = prompt("Укажите вораст");
+if (year = prompt("Укажите вораст")){
     console.log(year);
 }
 

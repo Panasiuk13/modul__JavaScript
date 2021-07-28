@@ -1,25 +1,26 @@
-var x = 0;
+/*let userName = prompt();
+let sum = sum + x;
 
-while (x = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 +13) {
-    console.log(x);
+while (x = prompt()) {
+    console.log(sum);
     x ++;
-}
+}*/
 
 
-var x = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 +13;
-for ( var x = 13; x >= 0; x --){
+/*var x = 0;
+for ( var x = prompt() ; x >= 0; x --){
    if( x % 2 === 0) {
       console.log(x);
    }
 
-}
+}*/
 
 
-var x = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13;
-while (x > 13){
+/*var x = prompt();
+while (x = prompt()){
    if(x % 2 === 0){
       console.log(x);
    }
    x --;
-}
+}*/
 
