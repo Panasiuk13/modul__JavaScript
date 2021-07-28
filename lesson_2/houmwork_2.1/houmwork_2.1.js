@@ -1,14 +1,14 @@
 /*var year = prompt("Укажите вораст");
 if (year = prompt("Укажите вораст")){
     console.log(year);
-}
-
-var p = 20;
-var year = prompt("Укажите вораст");
-var test = 20 < year ? console.log(year) : console.log(p);
+}*/
 
 
-var x = 1 + 1;
+/*var year = prompt("Укажите вораст");
+var test = year < prompt("Укажите вораст") ? console.log(year) : console.log(p);*/
+
+
+/*var x = prompt("Укажите вораст");
 switch (x) {
     case 1:
     case 2:

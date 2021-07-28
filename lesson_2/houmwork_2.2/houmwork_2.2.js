@@ -1,14 +1,14 @@
 /*let userName = prompt();
-let sum = sum + x;
+let sum = userName + x;
 
-while (x = prompt()) {
+while (userName + x) {
     console.log(sum);
     x ++;
 }*/
 
 
 /*var x = 0;
-for ( var x = prompt() ; x >= 0; x --){
+for ( var x = prompt() ; x > 0; x --){
    if( x % 2 === 0) {
       console.log(x);
    }
