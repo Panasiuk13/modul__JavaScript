@@ -9,14 +9,17 @@ console.log(arr1);*/
 
 
 //-------2----///
-/*let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+let arr1 = [];
+let sum = 0;
 for (let i = 0; i < arr.length; i++){
-    if(arr[i] ===)
-}*/
+    arr1.push(arr[i]*(i*5));
+}
 
+console.log(arr1);
 
 //-------3------///
-let x = prompt('Number');
+/*let x = prompt('Number');
 while (prompt()){
         console.log(x);
     }
@@ -28,4 +31,4 @@ for (let i = 0; i < arr.length; i++) {
         largest = arr[i]
     }
 }
-console.log(largest);
+console.log(largest);*/
