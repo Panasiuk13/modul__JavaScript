@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a331590-5cfe-4e28-8d81-9dfdfe5d2919" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_5/advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/lesson_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/lesson_6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_5/lesson_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5/lesson_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_5/lesson_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5/lesson_5.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,24 +25,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.js">
+        <entry file="file://$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -67,24 +64,29 @@
         <option value="$PROJECT_DIR$/lesson_1/houmwork-1.2/houmwork-1.2.js" />
         <option value="$PROJECT_DIR$/lesson_3/lesson_3.js" />
         <option value="$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.html" />
-        <option value="$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js" />
         <option value="$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.html" />
-        <option value="$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js" />
-        <option value="$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js" />
         <option value="$PROJECT_DIR$/lesson_2/lesson_4.html" />
         <option value="$PROJECT_DIR$/lesson_4/lesson_4.html" />
         <option value="$PROJECT_DIR$/lesson_4/lesson_4.js" />
         <option value="$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.html" />
-        <option value="$PROJECT_DIR$/lesson_5/lesson_5.html" />
-        <option value="$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js" />
         <option value="$PROJECT_DIR$/lesson_5/lesson_5.js" />
+        <option value="$PROJECT_DIR$/lesson_5/lesson_5.html" />
+        <option value="$PROJECT_DIR$/lesson_5/advanced.js" />
+        <option value="$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.html" />
+        <option value="$PROJECT_DIR$/lesson_6/lesson_6.html" />
+        <option value="$PROJECT_DIR$/lesson_6/lesson_6.js" />
+        <option value="$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js" />
+        <option value="$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js" />
+        <option value="$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js" />
+        <option value="$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js" />
+        <option value="$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="647" />
-    <option name="y" value="45" />
-    <option name="width" value="688" />
+    <option name="x" value="418" />
+    <option name="y" value="220" />
+    <option name="width" value="883" />
     <option name="height" value="510" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -103,7 +105,13 @@
             <path>
               <item name="modul__JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="modul__JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson_5" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="modul__JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modul__JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_2" type="462c0819:PsiDirectoryNode" />
+              <item name="houmwork_2.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,12 +168,13 @@
       <workItem from="1627462235250" duration="12317000" />
       <workItem from="1627722980365" duration="3108000" />
       <workItem from="1627904449492" duration="2092000" />
-      <workItem from="1627919131918" duration="3046000" />
+      <workItem from="1627919131918" duration="21931000" />
+      <workItem from="1628231774895" duration="8124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63499000" />
+    <option name="totallyTimeSpent" value="90508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,10 +186,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="647" y="45" width="688" height="510" extended-state="0" />
+    <frame x="418" y="220" width="883" height="510" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33076924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1928994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,16 +279,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.2.html" />
-    <entry file="file://$PROJECT_DIR$/lesson_2/lesson_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="79" selection-end-line="83" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/exercises_history.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -365,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -394,32 +386,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_4/lesson_4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_1D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4936" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js">
+    <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" selection-start-line="19" selection-end-line="24" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_4/lesson_4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -433,30 +415,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" selection-start-line="11" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="-158">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_5/advanced.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/lesson_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_6/lesson_6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/lesson_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="87" column="3" lean-forward="true" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.2/houmwork_2.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_4/houmwork_4/houmwork_4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

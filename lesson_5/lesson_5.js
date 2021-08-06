@@ -67,6 +67,8 @@ person.name = "Dima";
 console.log(person,personCountry );*/
 
 
-let city = [
+/*дзlet city = [
     {name: "Minsk" population: 1000000}
-]
+]*/
+
+

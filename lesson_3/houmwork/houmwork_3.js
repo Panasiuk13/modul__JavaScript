@@ -6,9 +6,10 @@ function sumOfNumbers(arr) {
     for(let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    console.log(sum);
+    return sum;
 }
-sumOfNumbers(arr);
+console.log(sumOfNumbers(arr));
+
 
 //----------2----------//
 function sumTo(n) {
@@ -22,14 +23,17 @@ function sumTo(n) {
 console.log( sumTo(1000) );
 
 //-------------3--------//
-function sumOfNumber(n) {
-  let sum = 0;
+function sumOfNumber(number) {
+    const stringNumber = String(number);
+    let sum = 0;
 
-  for(let i = 0; i < x.length; i++){
-      sum += Number(x[i]);
-  }
-    console.log(sum);
+    for(let i = 0; i < stringNumber.length; i++){
+        sum += Number(stringNumber[i]);
+    }
+    return sum;
 }
-sumOfNumber(1990);
+
+const number = 1990;
+console.log(sumOfNumber(number));
 
 

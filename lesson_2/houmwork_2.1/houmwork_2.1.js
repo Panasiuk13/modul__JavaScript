@@ -1,23 +1,30 @@
-/*var year = prompt("Укажите вораст");
-if (year = prompt("Укажите вораст")){
-    console.log(year);
-}*/
+const number1 = Number(window.prompt('Type a number (1):'));
+const number2 = Number(window.prompt('Type a number (2):'));
+
+if (number1 >= number2) {
+    console.log(number1);
+} else {
+    console.log(number2);
+}
 
 
-/*var year = prompt("Укажите вораст");
-var test = year < prompt("Укажите вораст") ? console.log(year) : console.log(p);*/
+var year = prompt("Укажите вораст");
+var test = year < prompt("Укажите вораст") ? console.log(year) : console.log(test);
 
 
-/*var x = prompt("Укажите вораст");
+const x = Number(prompt("Укажите вораст"));
 switch (x) {
     case 1:
+        alert('not ok!');
+        break;
     case 2:
+        alert('bad!');
+        break;
     case 3:
-        console.log(alert('ok!'));
+        alert('ok!');
         break;
-    case 4:
-    case 5:
-        console.log(alert('hi!'));
+    default:
+        alert('Your number is: ' + x);
         break;
-}*/
+}
 
