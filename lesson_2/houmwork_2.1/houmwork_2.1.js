@@ -8,8 +8,8 @@ if (number1 >= number2) {
 }
 
 
-var year = prompt("Укажите вораст");
-var test = year < prompt("Укажите вораст") ? console.log(year) : console.log(test);
+var year = Number(prompt("Укажите вораст"));
+var test = year >= Number(prompt("Укажите вораст")) ? console.log(year) : console.log(test);
 
 
 const x = Number(prompt("Укажите вораст"));

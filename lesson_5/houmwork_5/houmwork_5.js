@@ -46,3 +46,14 @@ result[5].population = 200000;
 
 console.log(result);
 
+//-----4---//
+
+function getCity(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i].name, arr[i].population);
+
+    }
+}
+    getCity(result);
+
+
