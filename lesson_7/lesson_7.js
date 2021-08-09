@@ -114,18 +114,18 @@ dateMoment = new Date();
 
 console.log(dateMoment.getTime());
 
-//раные форматы
-
+//разные способы
 
 let dates = new Date();
 
-console.log(dates.toDateString());
+console.log(dates.toLocaleDateString());
+console.log(dates.toISOString());
 
 
-//Date miliseconds
+// Date: миллисекунды от 1 января 1970
 
 console.log(`
-${Date.parse('2020,04,04')}
-  ${Date.now`)}
-
+${Date.parse('2020-04-04')}
+${Date.now()}
+`);
 

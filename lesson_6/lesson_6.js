@@ -34,36 +34,45 @@ function random(min, max) {
 /*let countLetters = document.querySelector('.letters')
 document.querySelector('textarea').oninput = function (e) {
   let value = e.target.value;
+  countLetters.innerHTML = value.length
+
 };*/
 
 /*let input = document.querySelector('.add-item__input');
 let addButton = document.querySelector('.add-item__button');
-let toDo = document.querySelector('to-do');
+let toDo = document.querySelector('.to-do');
 
 let items = [];
 
-addButton.onclick = function () {
+addButton.onclick = function(){
     let value = input.value;
+
     if(value){
         items.push(input.value);
         input.value = '';
-        render()
+
+        render();
     }else{
-        alert('Error!');
+        alert("Error!");
     }
-  input.push(input.value);
-  input.value = '';
-};
-
-function render() {
-    for( let x = 0; x < item.length; x++){
-        toDo.innerHTML += `<li>${items[x]}`<button onclick="deleteItem(${x})"></button/></li>;
-    }
-
 }
 
-function clearTodo() {
+function render(){
+    clearTodo();
+
+    for(let x = 0; x < items.length; x++){
+        toDo.innerHTML += `<li>${items[x]}<button onclick="deleteItem(${x})">X</button></li>`;
+    }
+}
+
+function clearTodo(){
     toDo.innerHTML = '';
+}
+
+function deleteItem(x){
+    items.splice(x, 1);
+
+    render();
 }*/
 
 let expression = document.querySelector('expression');
@@ -123,6 +132,6 @@ function expressionNumber(operator) {
 }
 
 function  render(){
-    expression.innerHTML = `${numbers[0]} ${operators} ${numbers[1]} ${result ? ' =' + result }`
+    expression.innerHTML =( `${numbers[0]} ${operators} ${numbers[1]} ${result ? ' =' + result }`);
 }
 
