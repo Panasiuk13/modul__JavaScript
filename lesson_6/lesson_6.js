@@ -104,7 +104,8 @@ document.querySelector('numbers').onclick = function (e) {
 
     let number = target.innerText;
 
-    if(number == '=')expressionNumber(){
+    if(number == '=')expressionNumber()
+    {
 
     }
 
@@ -123,15 +124,15 @@ function expressionNumber(operator) {
    let twoNumber = +number[1];
 
    if(operator == '+')result = numbers[0] + numbers [1];
-    (operator == '-')result = numbers[0] + numbers [1];
-    (operator == '*')result = numbers[0] + numbers [1];
-    (operator == '/')result = numbers[0] + numbers [1];
+     (operator == '-')result = numbers[0] + numbers [1];
+     (operator == '*')result = numbers[0] + numbers [1];
+     (operator == '/')result = numbers[0] + numbers [1];
 
 
     render();
 }
 
 function  render(){
-    expression.innerHTML =( `${numbers[0]} ${operators} ${numbers[1]} ${result ? ' =' + result }`);
+    expression.innerHTML =( `${numbers[0]} ${operators} ${numbers[1]} ${result ? ' =' + result}`);
 }
 

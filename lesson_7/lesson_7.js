@@ -92,7 +92,7 @@ console.log('xy'.charCodeAt(1));
 
 console.log("a" > "A", "a".charCodeAt(), "A".charCodeAt());
 
-//интеполяция
+//интерполяция
 let temp = 30;
 console.log(`${temp > 25 ? 'жарко' : 'холодно'}!`);
 
