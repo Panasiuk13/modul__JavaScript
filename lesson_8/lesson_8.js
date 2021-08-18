@@ -108,9 +108,9 @@ console.log(findIndex);
 // sort
 
 function sorting(first, second) {
-  if(first.length > second.length) return 1
-  else if (first.length < second.length) return -1
-    else return 0
+  if(first.length > second.length) return 1;
+  else if (first.length < second.length) return -1;
+    else return 0;
 }
 
 let sort = cars.sort(2);

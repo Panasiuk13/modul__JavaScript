@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a331590-5cfe-4e28-8d81-9dfdfe5d2919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/lesson_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/lesson_10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/lesson_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_9/lesson_9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/lesson_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/lesson_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/lesson_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/lesson_6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_7/lesson_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_7/lesson_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_8/lesson_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/lesson_8.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="311">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_10/lesson_10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_10/lesson_10.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -80,16 +107,22 @@
         <option value="$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.html" />
         <option value="$PROJECT_DIR$/lesson_7/lesson_7.js" />
         <option value="$PROJECT_DIR$/lesson_8/lesson_8.html" />
-        <option value="$PROJECT_DIR$/lesson_8/lesson_8.js" />
         <option value="$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.js" />
+        <option value="$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.html" />
+        <option value="$PROJECT_DIR$/lesson_8/lesson_8.js" />
+        <option value="$PROJECT_DIR$/lesson_9/lesson_9.html" />
+        <option value="$PROJECT_DIR$/lesson_9/lesson_9.js" />
+        <option value="$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.js" />
+        <option value="$PROJECT_DIR$/lesson_10/lesson_10.html" />
+        <option value="$PROJECT_DIR$/lesson_10/lesson_10.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="375" />
-    <option name="y" value="5" />
-    <option name="width" value="685" />
-    <option name="height" value="510" />
+    <option name="x" value="782" />
+    <option name="y" value="67" />
+    <option name="width" value="555" />
+    <option name="height" value="624" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,27 +137,18 @@
               <item name="modul__JavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="modul__JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="modul__JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="modul__JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson_7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="modul__JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="modul__JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson_8" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/floobits/share/alexxam8x8/JS-education/main.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,12 +195,15 @@
       <workItem from="1627919131918" duration="21931000" />
       <workItem from="1628231774895" duration="8124000" />
       <workItem from="1628240990515" duration="34561000" />
-      <workItem from="1628688029618" duration="11847000" />
+      <workItem from="1628688029618" duration="12003000" />
+      <workItem from="1628837239752" duration="3142000" />
+      <workItem from="1628845589824" duration="25643000" />
+      <workItem from="1629273288417" duration="9315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136916000" />
+    <option name="totallyTimeSpent" value="175172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,10 +215,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="375" y="5" width="685" height="510" extended-state="0" />
+    <frame x="782" y="67" width="555" height="624" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3075734" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.058027077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,49 +262,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/conditions.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/exceptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/houmwork-1.1/houmwork-1.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/houmwork-1.2/houmwork-1.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/lesson_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.2.html" />
-    <entry file="file://$PROJECT_DIR$/../modul_html_and_css/diplom_css_html/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modul_html_and_css/diplom_css_html/comments.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../modul_html_and_css/diplom_css_html/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -302,34 +285,6 @@
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/algorithms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/recursion.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/basics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2323" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_2D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2374">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/strings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_3D.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_3/houmwork/houmwork_3.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,11 +320,6 @@
         <state relative-caret-position="315">
           <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_1D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4936" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_5/lesson_5.html">
@@ -430,18 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/exercises_history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/lesson_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_5/houmwork_5/houmwork_5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -470,16 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/date.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/houmwork_2.1/houmwork_2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -501,34 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/useful_functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1418">
-          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_8/lesson_8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_8/lesson_8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -539,10 +439,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/lesson_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_7/houmwork_7/houmwork_7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="301">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="45" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/useful_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1633">
+          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/exercises_history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1157" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_1D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4761" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_2D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2007">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/arrays_3D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/basics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2075" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/classes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/conditions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2313" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/exceptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/recursion.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/strings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="80" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/floobits/share/alexxam8x8/JS-education/history/algorithms.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_9/lesson_9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_9/lesson_9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/lesson_8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/lesson_8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_8/houmwork_8/houmwork_8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_10/lesson_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_10/lesson_10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
         </state>
       </provider>
     </entry>
