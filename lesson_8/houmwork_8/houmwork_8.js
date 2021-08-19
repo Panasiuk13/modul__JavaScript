@@ -64,10 +64,18 @@ let x = splitTextToWords(text);
 let result = reversStringArr (x);
 console.log(result);
 
-function SortWordsInArr(result) {
-   return result;
-}
-console.log(result.sort(SortWordsInArr));
+result.sort(function (a, b) {
+    if(a.length > b.length){
+        return -1;
+    }
+    if(a.length < b.length){
+        return 1;
+    }
+    return 0;
+
+});
+
+console.log((result.sort(function (a, b) {return a - b})));
 
 function numSymbol(arr){
      let num = 0;
