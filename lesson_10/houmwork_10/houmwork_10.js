@@ -1,0 +1,3 @@
+function eventAttribute(){
+    alert('Hello');
+}
