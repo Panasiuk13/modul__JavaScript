@@ -1,13 +1,15 @@
 //-----1----//
-function tictoc(start, step) {
-    return start + step;
-
+function tictoc(counter, step) {
+    return counter + step;
 }
-function counterFactoryX(start, step) {
-    return tictoc(start, step);
- }
-
-console.log(counterFactoryX(5,5));
+function counterFactory(start, step, numRepeats) {
+    let counter = start;
+    for (let i = 0; i < numRepeats; i++) {
+        counter = tictoc(counter, step);
+            }
+    return counter;
+}
+console.log(counterFactory(100, 5, 5));
 
 
 // //-----2----//
@@ -80,7 +82,7 @@ console.log((result.sort(function (a, b) {return a - b})));
 function numSymbol(arr){
      let num = 0;
      for(let i = 0; i < arr.length; i++){
-         if(arr[i] === 'с'){
+         if(arr[i] === 'с' || arr[i] === 'С'){
              num += 1;
          }
      }
