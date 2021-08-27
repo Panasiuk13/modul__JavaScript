@@ -142,4 +142,21 @@ auto.style.background = '#444';
 let radio = 50;
 
 auto.style.borderRadius = radio + '%';
+let div = {
+    innerHTML: '<p>It is good!</p>',
+    textContent: 'It is good!',
+    id: '#text',
+    className: 'textGood',
+    classList: {
+        add: function(newClass){
+            console.log(newClass);
+        },
+        remove: function(deleteClass){
+
+        }
+    }
+};
+
+div.innerHTML = '<p>It is not good!</p>';
+div.classList.add('qwe');
 

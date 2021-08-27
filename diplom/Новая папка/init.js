@@ -1,0 +1,2 @@
+//инициализация проекта
+renderCategory();//category
