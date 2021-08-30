@@ -6,22 +6,59 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .depositInitial{
+            height: 0;
+            width: 100%;
+            background: red;
+        }
+        .depositFinal{
+            height: 0;
+            width: 100%;
+            background: green;
+        }
+        td {
+            text-align: center;
+            vertical-align: bottom;
+        }
+        #t7_error{
+            color: red;
+
+        }
+    </style>
 </head>
 <body>
-<select>
-    <option name="man" onclick="eventAttribute_1()">Man</option>
-    <option name="woman" onclick="eventAttribute_2()">Woman</option>
+<select class="fruits">
+    <option value="apple">Apple</option>
+    <option value="orange">Orange</option>
 </select>
-<form name="form">Калькулятор процентов по вкладу
+
+<form id="t2_form" name="form">Калькулятор процентов по вкладу
     <input name="text">Сумма
-    <select>
-        <option value="month">6 мес</option>
-        <option value="month">12 мес</option>
+    <select name="select">
+        <option value="6">6 мес</option>
+        <option value="12">12 мес</option>
+        <option value="24">24 мес</option>
     </select>
     <input type="checkbox">С капитализацией
-    <button>Расчитать</button>
-    <div>Было</div>
-    <div>Станет</div>
+    <button type="button" onclick="t2_calculate()">Расчитать</button>
+
+    <table border="0" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>Было: <span id="t2_valueInitial"></span></td>
+            <td>Станет: <span id="t2_valueFinal"></span></td>
+        </tr>
+        <tr>
+            <td><div id="t2_columnInitial" class="depositInitial"></div></td>
+            <td><div id="t2_columnFinal" class="depositFinal"></div></td>
+        </tr>
+    </table>
+</form>
+
+<form>
+    <input id="t7_password" type="password" oninput="t7_oninput()">
+    <button type="button" onclick="t7_button()">Вход</button>
+    <span id="t7_error" ></span>
 </form>
 
 <script src="houmwork_11.js"></script>

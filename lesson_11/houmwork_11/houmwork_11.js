@@ -1,6 +1,4 @@
-//1 Создайте селект с несколькими опциями. Добавьте одну опцию, используя Javascript.
-// Сделайте так,
-// чтобы по выбору опции выводилось сообщение с данными этой опции (текст + значение).
+//1
 const selectElement = document.getElementsByClassName('fruits')[0];
 let option = document.createElement('option');
 option.value = 'other';
@@ -23,29 +21,59 @@ function t2_calculate() {
     const depositFinal = Math.floor(depositInitial * (1 + 0.12 * (depositTime / 12)));
 
     console.log(`${depositInitial} - ${depositTime} - ${depositFinal}`);
+
+    const spanInitial = document.getElementById('t2_valueInitial');
+    const spanFinal = document.getElementById('t2_valueFinal');
+    spanInitial.innerHTML = depositInitial;
+    spanFinal.innerHTML = depositFinal;
+
+    const heightInitial = Math.floor((depositInitial / depositFinal * 200) / 1.7);
+    const heightFinal = 200;
+
+    const columnInitial = document.getElementById('t2_columnInitial');
+    columnInitial.style.height = heightInitial + 'px';
+    const columnFinal = document.getElementById('t2_columnFinal');
+    columnFinal.style.height = heightFinal + 'px';
 }
-
-
 //3
 let str = 'Be or not to be...';
 console.log(str.match(/\.../));
-//4Создайте regexp, который ищет все положительные числа,
-// в том числе десятичные.
-let number = '1, 9, 15, -30, 100';
-let regexp = new RegExp(/number/, 'd');
-console.log(number.match(/\d{2}/));
 
-//5/ Создайте регулярку, которая ищет цвета в формате #eee, #eeeddd
+//4
+let rgexp = new RegExp(/[+]?\d+(\.\d+)?/);
+let strValue = '10000, 57458, -811175, 0.247885, 1587, 25.3, -454887, 612365, 0';
+console.log(strValue.match(rgexp));
+
+//5/
+let regexp = new RegExp(/#([a-f0-9]{6}){1,2}/gi);
+let strC = "color: #3f3; background-color: #AA00ef;color: #fffff; background-color: #808080;color: #B22222; background-color: #90EE90;color: #FF4500; background-color: #FFFFE0;color: #7FFFD4; background-color: #20B2AA;color: #FF00FF; background-color: #0000CD;";
+console.log( strC.match(regexp) );
+
+//6
+const inputValue = '';
+const regex = new RegExp(/^$/);
+const isValid = regex.test(inputValue);
+console.log(isValid);
+
+//7
+function t7_button() {
+    const input = document.getElementById('t7_password');
+    const inputValue = input.value;
+    const regex = new RegExp(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{7,}$/);
+    const isValid = regex.test(inputValue);
+    console.log(isValid);
+
+    const spanError = document.getElementById('t7_error');
+    if(isValid === false){
+        spanError.innerHTML = 'Ваш пароль должен содержать хотя бы одну цифру, спецсимвол, а так же быть длиннее 6 знаков!';
+    } else {
+        alert('Success!');
+    }
+}
+
+function t7_oninput() {
+    const spanError = document.getElementById('t7_error');
+    spanError.innerHTML = '';
+}
 
 
-
-//6 Предложите строку, которая подойдет под выражение ^$
-
-
-
-//7Создайте HTML-форму регистрации с полем пароля.
-// // По клику на кнопку проведите валидацию пароля:
-// // он должен содержать хотя бы одну цифру,
-// // один спецсимвол и одну букву, а так же быть длиннее 6 знаков.
-// // При прохождении валидации выводить приветственное сообщение,
-// // в противном случае - ошибку
