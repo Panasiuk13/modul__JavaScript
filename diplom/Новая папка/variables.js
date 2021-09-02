@@ -1,1 +1,0 @@
-let categoryes = ['food', 'car', 'home','animal','child'];
