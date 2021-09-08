@@ -2,29 +2,104 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url("https://assets.unenvironment.org/styles/article_billboard_image/s3/2021-01/Finance.png?VersionId=null&amp;itok=6gD4fMyC");
+    background-size: cover;
+}
 
 .hidden {
     display: none;
     opacity: 0;
 }
 
-.categoryes{
+.categories{
     margin-top: 30px;
     padding-left: 30px;
 }
-
-.categoryes__list{
-    max-width: 300px;
+.categories__wrapper{
+    display: inline-block;
 }
 
-.categoryes__item{
+.categories__list{
+    max-width: 30%;
+}
+
+.categories__item{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.categoryes__name{
+.categories__name{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.button, .input{
+    padding: 5px 10px 5px;
+    font-size: 18px;
+
+}
+
+.total{
+    margin-top: 300px;
+    margin-left: 500px;
+    background-color: white;
+    width: 24%;
+    font-size: 18px;
+}
+
+.choose{
+    width: 100%;
+   }
+
+.profit{
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.profit__list{
+    max-width: 30%;
+}
+
+.profit__item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profit__name{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.button, .input{
+    padding: 10px 10px;
+    font-size: 18px;
+
+}
+.expenses{
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.expenses__list{
+    max-width: 30%;
+}
+
+.expenses__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.expenses__name{
     margin-right: 10px;
     font-size: 18px;
 }
@@ -32,8 +107,5 @@
 .button, .input{
     padding: 5px 10px;
     font-size: 18px;
-}
 
-.profit{
-    font-size: 18px;
 }

@@ -1,11 +1,13 @@
 let newCategory = document.querySelector('.js-category');
 let btnNewCategory = document.querySelector('.js-add-category');
+let deleteCategory = document.querySelector('.js-delete-category');
 
-let listCategory = document.querySelector('.categoryes__list');
+let listCategory = document.querySelector('.categories__list');
 
 let statusEditCategory = false;
 
 btnNewCategory.addEventListener('click', addCategory);
+deleteCategory.addEventListener('click',delCategory);
 listCategory.addEventListener('click', funcCategory);
 
 function addCategory (e) {
@@ -19,7 +21,7 @@ function addCategory (e) {
     }
 
     // Добавление категории в глобальную переменную
-    categoryes.push(newCategory.value);
+    categories.push(newCategory.value);
 
     // Перерендер всех категорий
     renderCategory();
@@ -44,7 +46,7 @@ function validateCategoty (category) {
 function renderCategory () {
     listCategory.innerHTML = '';
 
-    categoryes.forEach(function(category) {
+    categories.forEach(function(category) {
         listCategory.appendChild(templateItemCategory(category))
     })
 }
@@ -52,16 +54,16 @@ function renderCategory () {
 // Создание элемаента категории
 function templateItemCategory(name){
     let wrapperItem = document.createElement('div');
-    wrapperItem.className = 'categoryes__item';
+    wrapperItem.className = 'categories__item';
 
     let textItem = document.createElement('p');
-    textItem.className = 'categoryes__name';
+    textItem.className = 'categories__name';
     textItem.textContent = name;
 
     wrapperItem.appendChild(textItem);
 
     let renameItem = document.createElement('button');
-    renameItem.className = 'categoryes__rename button';
+    renameItem.className = 'categories__rename button';
     renameItem.textContent = 'Rename';
 
     wrapperItem.appendChild(renameItem);
@@ -72,38 +74,42 @@ function templateItemCategory(name){
 function funcCategory(e){
     let target = e.target;
 
-    if(target.classList.contains('categoryes__rename') && !statusEditCategory){
+    if(target.classList.contains('categories__rename') && !statusEditCategory){
         editCategory(target.parentElement);
         statusEditCategory = true;
     }
 }
 
 function editCategory(parentElement){
-    let pCategory = parentElement.querySelector('.categoryes__name');
+    let pCategory = parentElement.querySelector('.categories__name');
     let oldCategory = pCategory.textContent;
 
     let wrapperItem = document.createElement('div');
-    wrapperItem.className = 'categoryes__item';
+    wrapperItem.className = 'categories__item';
 
     let inputItem = document.createElement('input');
-    inputItem.className = 'categoryes__name';
+    inputItem.className = 'categories__name';
     inputItem.value = oldCategory;
 
     wrapperItem.appendChild(inputItem);
 
     let editItem = document.createElement('button');
-    editItem.className = 'categoryes__edit button';
+    editItem.className = 'categories__edit button';
     editItem.textContent = 'Edit';
+
+    let deleteItem = document.createElement('button');
+    deleteItem.className = 'categories__delete button';
+    deleteItem.textContent = 'Delete';
 
     wrapperItem.appendChild(editItem);
 
     listCategory.replaceChild(wrapperItem, parentElement);
 
     editItem.addEventListener('click', function(){
-        categoryes.forEach(function(category, index){
+        categories.forEach(function(category, index){
 
             if(category === oldCategory){
-                categoryes[index] = inputItem.value;
+                categories[index] = inputItem.value;
 
                 renderCategory();
             }
