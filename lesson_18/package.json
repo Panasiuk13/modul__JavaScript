@@ -1,0 +1,30 @@
+{
+  "name": "18lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --mode development",
+    "dev": "webpack --watc development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panasiuk13/modul__JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panasiuk13/modul__JavaScript/issues"
+  },
+  "homepage": "https://github.com/Panasiuk13/modul__JavaScript#readme",
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^2.3.0",
+    "sass": "^1.41.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1"
+  }
+}
