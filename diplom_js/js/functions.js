@@ -16,7 +16,7 @@ function prepareDataForCategoriesSelect(categories) {
     let selectData = [];
     selectData.push({
         value: '',
-        label: ''
+        label: 'Категория'
     });
     categories.forEach(function(category) {
         selectData.push({

@@ -143,6 +143,8 @@ function templateItemTotal(order, record){
 
     return totalTr;
 
+    
+
 }
 let btnApply = document.getElementsByClassName("total-apply")[0];
 btnApply.addEventListener("click", applyFilter);
@@ -157,6 +159,7 @@ function applyFilter(e){
     let sumTo = document.getElementById('filter-sum-to').value;
     let dateFrom = document.getElementById('filter-date-from').value;
     let dateTo = document.getElementById('filter-date-to').value;
+
 
     let activeOperationData = getActiveOperationData();
         let filteredData = activeOperationData.filter((el) => {
